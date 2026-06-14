@@ -1,0 +1,48 @@
+{
+  "proxy": {
+    "enabled": false,
+    "providers": [
+      {
+        "name": "free_proxies",
+        "type": "free",
+        "url": "https://www.free-proxy-list.net/",
+        "enabled": false
+      }
+    ],
+    "rotation": {
+      "strategy": "round_robin",
+      "max_failures": 3,
+      "check_interval": 300
+    },
+    "timeout": 10
+  },
+  "crawler": {
+    "headless": false,
+    "slow_mo": 100,
+    "timeout": 30000,
+    "max_concurrent": 3,
+    "user_data_dir": null
+  },
+  "behavior": {
+    "enabled": true,
+    "min_page_stay": 2000,
+    "max_page_stay": 8000,
+    "min_action_delay": 100,
+    "max_action_delay": 500,
+    "scroll_probability": 0.7,
+    "click_probability": 0.5
+  },
+  "storage": {
+    "use_mongodb": false,
+    "mongodb_uri": "mongodb://localhost:27017/",
+    "mongodb_db": "anti_detection_crawler",
+    "use_jsonl": true,
+    "jsonl_path": "data/results.jsonl"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/crawler.log",
+    "rotation": "10 MB",
+    "retention": "7 days"
+  }
+}

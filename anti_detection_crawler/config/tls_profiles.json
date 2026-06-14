@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "chrome_120": {
+      "name": "Chrome 120 (Windows)",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "ja3_hash": "cd08e31494f9531f560d64c695473da9",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+      "accept_encoding": "gzip, deflate, br",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\"",
+      "sec_ch_ua_platform": "\"Windows\"",
+      "sec_ch_ua_mobile": "?0"
+    },
+    "chrome_119": {
+      "name": "Chrome 119 (Windows)",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+      "ja3_hash": "b32309a26951912be7dba376398abc3b",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+      "accept_encoding": "gzip, deflate, br",
+      "sec_ch_ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+      "sec_ch_ua_platform": "\"Windows\"",
+      "sec_ch_ua_mobile": "?0"
+    },
+    "firefox_121": {
+      "name": "Firefox 121 (Windows)",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+      "ja3_hash": "579ccef312d18480fc42f8a16f0b8d2c",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "accept_language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+      "accept_encoding": "gzip, deflate, br"
+    }
+  },
+  "default": "chrome_120"
+}

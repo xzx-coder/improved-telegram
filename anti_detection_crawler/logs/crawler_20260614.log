@@ -1,0 +1,9 @@
+2026-06-14 17:22:56.583 | INFO     | core.crawler:start:153 - 正在启动反检测爬虫...
+2026-06-14 17:22:57.532 | INFO     | core.crawler:start:164 - 反检测爬虫已启动
+2026-06-14 17:22:59.208 | WARNING  | core.stealth:apply_stealth:71 - playwright-stealth未安装，跳过stealth应用
+2026-06-14 17:23:06.609 | ERROR    | core.crawler:fetch:361 - 抓取失败 https://bot.sannysoft.com/: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://bot.sannysoft.com/", waiting until "domcontentloaded"
+
+2026-06-14 17:23:06.617 | INFO     | core.crawler:stop:168 - 正在停止爬虫...
+2026-06-14 17:23:06.905 | INFO     | core.crawler:stop:174 - 爬虫已停止

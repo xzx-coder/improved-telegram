@@ -1,0 +1,73 @@
+{
+  "canvas": {
+    "enabled": true,
+    "noise_intensity": 0.5,
+    "mode": "random"
+  },
+  "webgl": {
+    "enabled": true,
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Direct3D11 vs_5_0 ps_5_0)",
+    "unmasked_vendor": "Google Inc. (NVIDIA)",
+    "unmasked_renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Direct3D11 vs_5_0 ps_5_0)"
+  },
+  "audio": {
+    "enabled": true,
+    "noise": 0.0001
+  },
+  "screen": {
+    "enabled": true,
+    "resolutions": [
+      {"width": 1920, "height": 1080},
+      {"width": 1366, "height": 768},
+      {"width": 1536, "height": 864},
+      {"width": 1440, "height": 900},
+      {"width": 1280, "height": 720}
+    ],
+    "color_depth": 24,
+    "pixel_ratio": 1
+  },
+  "fonts": {
+    "enabled": true,
+    "fonts_list": [
+      "Arial", "Arial Black", "Arial Narrow", "Calibri", "Cambria",
+      "Courier New", "Georgia", "Helvetica", "Impact", "Lucida Console",
+      "Microsoft Sans Serif", "Palatino Linotype", "Tahoma", "Times New Roman",
+      "Trebuchet MS", "Verdana", "SimSun", "SimHei", "Microsoft YaHei",
+      "KaiTi", "FangSong"
+    ]
+  },
+  "webrtc": {
+    "enabled": true,
+    "block_local_ips": true
+  },
+  "timezone": {
+    "enabled": true,
+    "timezone": "Asia/Shanghai",
+    "timezone_offset": -480
+  },
+  "languages": {
+    "enabled": true,
+    "languages": ["zh-CN", "zh", "en"]
+  },
+  "plugins": {
+    "enabled": true,
+    "plugins": [
+      {
+        "name": "PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format"
+      },
+      {
+        "name": "Chrome PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format"
+      },
+      {
+        "name": "Chromium PDF Viewer",
+        "filename": "internal-pdf-viewer",
+        "description": "Portable Document Format"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{"url": "test", "success": true, "strategy": "test", "timestamp": "2026-06-02T09:33:08.928007"}
+{"url": "https://test.com", "success": true, "response_time": 1.5, "timestamp": "2026-06-02T09:33:21.239393"}
+{"url": "https://test.com", "success": true, "response_time": 1.5, "timestamp": "2026-06-02T09:33:34.397694"}
+{"url": "https://test.com", "success": true, "response_time": 1.5, "timestamp": "2026-06-02T09:34:05.069291"}
+{"url": "https://test.com", "success": true, "response_time": 1.5, "timestamp": "2026-06-02T09:34:18.372338"}
+{"url": "https://test.com", "success": true, "response_time": 1.5, "timestamp": "2026-06-02T09:34:31.241653"}
+{"url": "https://test.com", "success": true, "response_time": 1.5, "timestamp": "2026-06-02T09:35:26.529248"}
+{"url": "https://bot.sannysoft.com/", "success": false, "status_code": 0, "response_time": 11.715343713760376, "title": "", "content_length": 0, "detected": false, "detection_signals": [], "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://bot.sannysoft.com/\", waiting until \"domcontentloaded\"\n", "timestamp": "2026-06-02T10:03:38.500685", "strategy": "完整反检测", "proxy_used": "", "fingerprint": {}}
+{"url": "https://bot.sannysoft.com/", "success": false, "status_code": 0, "response_time": 7.72533106803894, "title": "", "content_length": 0, "detected": false, "detection_signals": [], "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://bot.sannysoft.com/\", waiting until \"domcontentloaded\"\n", "timestamp": "2026-06-02T10:04:03.057895", "strategy": "完整反检测", "proxy_used": "", "fingerprint": {}}
+{"url": "https://bot.sannysoft.com/", "success": false, "status_code": 0, "response_time": 9.076226472854614, "title": "", "content_length": 0, "detected": false, "detection_signals": [], "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://bot.sannysoft.com/\", waiting until \"domcontentloaded\"\n", "timestamp": "2026-06-14T17:22:57.533231", "strategy": "完整反检测", "proxy_used": "", "fingerprint": {}}

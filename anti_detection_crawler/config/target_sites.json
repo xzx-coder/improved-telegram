@@ -1,0 +1,55 @@
+{
+  "test_sites": [
+    {
+      "name": "bot.sannysoft",
+      "url": "https://bot.sannysoft.com/",
+      "type": "detection_test",
+      "description": "综合反爬检测测试"
+    },
+    {
+      "name": "browserleaks",
+      "url": "https://browserleaks.com/javascript",
+      "type": "detection_test",
+      "description": "JavaScript指纹检测"
+    },
+    {
+      "name": "browserleaks_webgl",
+      "url": "https://browserleaks.com/webgl",
+      "type": "detection_test",
+      "description": "WebGL指纹检测"
+    },
+    {
+      "name": "browserleaks_canvas",
+      "url": "https://browserleaks.com/canvas",
+      "type": "detection_test",
+      "description": "Canvas指纹检测"
+    },
+    {
+      "name": "amiunique",
+      "url": "https://amiunique.org/fingerprint",
+      "type": "detection_test",
+      "description": "浏览器指纹检测"
+    },
+    {
+      "name": "ja3er",
+      "url": "https://ja3er.com/json",
+      "type": "tls_test",
+      "description": "JA3 TLS指纹测试"
+    },
+    {
+      "name": "tls.peet.ws",
+      "url": "https://tls.peet.ws/api/all",
+      "type": "tls_test",
+      "description": "TLS指纹综合测试"
+    }
+  ],
+  "real_targets": [
+    {
+      "name": "Cloudflare演示",
+      "url": "https://nowsecure.nl/",
+      "type": "real_target",
+      "difficulty": "high",
+      "description": "Cloudflare严格反爬测试"
+    }
+  ]
+}
